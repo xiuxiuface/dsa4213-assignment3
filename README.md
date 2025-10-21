@@ -25,6 +25,31 @@ The task compares both approaches in terms of performance (Accuracy, F1-score) a
 You can open the `.ipynb` file directly in Kaggle or Colab and run all cells.
 
 ### Option 2: Local / Command Line
-If you prefer running locally:
+## 🔧 Setup
+Clone the repository and install the dependencies:
+
 ```bash
-pip install torch transformers datasets peft scikit-learn matplotlib accelerate
+git clone https://github.com/<your-username>/dsa4213-a3.git
+cd dsa4213-a3
+pip install -r requirements.txt
+```
+
+## ▶️ Run
+Run one of the following:
+```bash
+python main.py --strategy full
+python main.py --strategy lora
+```
+
+---
+
+✅ **Summary**
+
+| File | What to do |
+|------|-------------|
+| `train_full.py`, `train_lora.py` | Add comment header telling how to install packages (no `!pip` inside) |
+| `requirements.txt` | List all dependencies |
+| `README.md` | Add install + run instructions |
+| `main.py` | Already fine — will call both training scripts |
+
+---
