@@ -41,15 +41,4 @@ python main.py --strategy full
 python main.py --strategy lora
 ```
 
----
 
-✅ **Summary**
-
-| File | What to do |
-|------|-------------|
-| `train_full.py`, `train_lora.py` | Add comment header telling how to install packages (no `!pip` inside) |
-| `requirements.txt` | List all dependencies |
-| `README.md` | Add install + run instructions |
-| `main.py` | Already fine — will call both training scripts |
-
----
