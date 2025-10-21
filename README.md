@@ -22,7 +22,7 @@ The task compares both approaches in terms of performance (Accuracy, F1-score) a
 ## ⚙️ Environment Setup
 
 ### Option 1: Kaggle / Google Colab
-You can open the `.ipynb` file directly in Kaggle or Colab and run all cells.
+You can open the `.ipynb` file directly in Kaggle or Colab and run all cells (I use Kaggle).
 
 ### Option 2: Local / Command Line
 ## 🔧 Setup
