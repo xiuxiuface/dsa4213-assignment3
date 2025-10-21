@@ -1,4 +1,4 @@
-# DSA4213 Assignment 3 — Fine-Tuning Pretrained Transformers
+# DSA4213 Assignment 3: Fine-Tuning Pretrained Transformers
 
 This repository contains the implementation and results for **Assignment 3: Fine-Tuning Pretrained Transformers**.
 
@@ -9,7 +9,7 @@ This repository contains the implementation and results for **Assignment 3: Fine
 
 ---
 
-## 📘 Overview
+## Overview
 This project explores how large pretrained Transformer models can be adapted to a downstream NLP task — sentiment analysis — using two fine-tuning strategies:
 
 1. **Full Fine-tuning** — update all model parameters.  
@@ -19,7 +19,7 @@ The task compares both approaches in terms of performance (Accuracy, F1-score) a
 
 ---
 
-## ⚙️ Environment Setup
+## Environment Setup
 
 ### Option 1: Kaggle / Google Colab
 You can open the `.ipynb` file directly in Kaggle or Colab and run all cells (I use Kaggle).
@@ -34,7 +34,7 @@ cd dsa4213-a3
 pip install -r requirements.txt
 ```
 
-## ▶️ Run
+## Run
 Run one of the following:
 ```bash
 python main.py --strategy full
